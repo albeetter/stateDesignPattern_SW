@@ -49,20 +49,20 @@ Create AccountTest() class to test the Account:
 	public static void main (String[] args){
 
 		Account myAccount = new Account("1234", 10000.0); //set acct to active state
-                       myAccount.activate(); // displays "Account is already activated!"
+			myAccount.activate(); // displays "Account is already activated!"
 
                        //Suspend the account
-		myAccount.suspend(); //displays "Account is suspended!"
+			myAccount.suspend(); //displays "Account is suspended!"
 
 		//Activate the account
-                        myAccount.activate() //displays "Account is activated!"
+			myAccount.activate() //displays "Account is activated!"
 		
 		//Deposit to the account
-	myAccount.deposit(1000.0);// update balance and displays account number and
+		myAccount.deposit(1000.0);// update balance and displays account number and
          // current balance. Call the toString() method in deposit().    	                                
 
-//Withdraw to the account
-	myAccount.withdraw(100.0);// update balance and displays account number and
+		//Withdraw to the account
+		myAccount.withdraw(100.0);// update balance and displays account number and
          // current balance. Call the toString() method in withdraw().    	                                
 
 		//Close the account()
